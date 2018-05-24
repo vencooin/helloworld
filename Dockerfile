@@ -1,6 +1,6 @@
 FROM alpine:3.3
-MAINTAINER vencooin.
-LABEL vencooin.
+MAINTAINER vencooin - vencooin.
+LABEL vencooin - vencooin.
 
 run apk add --update darkhttpd && rm -rf /var/cache/apk/*
 
